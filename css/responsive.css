@@ -110,6 +110,7 @@
     .nav-bar:hover ul li {
         display: block;
     }
+     /* feature template  */
     .feature-template img {
         width: 240px;
     }
@@ -128,6 +129,7 @@
     .banar-title {
         font-size: 45px;
     }
+    /* feature content */
     .feature-content {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
