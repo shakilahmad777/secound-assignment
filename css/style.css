@@ -95,7 +95,7 @@
 .feature-content {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    margin-top: 105px;
+    margin: 105px 30px 0 30px;
 }
 .feature-template {
     display: grid;
@@ -139,6 +139,7 @@
 .feature-enjoy .features {
     display: flex;
     flex-direction: column;
+    margin-bottom: 1rem;
 }
 .enjoy-title {
     font-size: 45px;
@@ -150,8 +151,13 @@
 }
 .article {
     padding: 30px;
+    margin: 10px 0;
     box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
     border-radius: 8px;
+}
+.article-title {
+    font-size: 20px;
+    margin-bottom: 10px;
 }
 
 .love-status {
@@ -185,14 +191,14 @@
 }
 .facts-description {
     width: 442px;
-    margin: 30px 0 30px 0;
+    margin: 30px 0 60px 0;
 }
 
 .awords-content {
     display: grid;
+    grid-column-gap: 1.5rem;
     grid-template-columns: repeat(4, 1fr);
     padding: 0 3rem;
-    gap: 5rem;
 }
 .awords {
     width: 100%;
@@ -200,10 +206,49 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding: 2rem 0;
     border: 1px solid #FF900E;
-    padding: 2rem 1rem;
+    border-radius: 8px;
 }
 
-.hide{
+/* footer section */
+.our-sponspors {
+    margin: 105px 0 216px 0;
+}
+.sponspors {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.sponspor-title {
+    font-size: 45px;
+    line-height: 53px;
+    margin-bottom: 24px;
+}
+.sponspors-description {
+    width: 542px;
+}
+
+.sponspors-company {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    align-items: center;
+    margin: 50px 0 130px 0;
+}
+/* .brand {
+
+} */
+
+.reserved {
+    background: #FFF4E7;
+    text-align: center;
+    padding: 40px 0;
+    border-radius: 8px;
+}
+
+
+.hide {
     display: none;
 }
