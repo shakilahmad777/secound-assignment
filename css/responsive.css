@@ -1,0 +1,49 @@
+/* RESPONSIVE DESIGN IN MEDIA QUARY */
+
+@media only screen and (max-width: 576px) {
+    .nav-bar .logo span {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    ul li {
+        display: none;
+    }
+    .fa-bars {
+        display: block;
+    }
+    .nav-bar .menu-bar {
+        position: relative;
+        left: 0;
+        top: 0;
+    }
+    .nav-bar .menu-bar ul {
+        position: absolute;
+        left: -150px;
+        top: 20px;
+        width: 150px;
+        display: flex;
+        gap: 5px;
+        flex-direction: column;
+        background: #ffff;
+    }
+    .menu-bar ul li{
+        padding: 10px;
+    }
+
+    .fa-bars:hover ul li {
+        display: inline-block;
+    }
+   
+}
+
+@media only screen and (min-width: 577px) and (max-width: 992px) {
+    
+    .nav-bar .logo span {
+        font-size: 30px;
+    }
+    .nav-bar .menu-bar ul li a {
+        padding: 0 1rem
+    }
+}
