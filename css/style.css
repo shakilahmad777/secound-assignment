@@ -209,6 +209,23 @@
     padding: 2rem 0;
     border: 1px solid #FF900E;
     border-radius: 8px;
+    transition: all 0.3s ease-out;
+}
+.awords:hover {
+    background: #f7b733;
+    scale: 1.1;
+}
+.aword-count {
+    font-size: 45px;
+    line-height: 53px;
+    color: #424242;
+    margin: 5px 0;
+}
+.aword-title {
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #727272;
 }
 
 /* footer section */
@@ -237,9 +254,14 @@
     align-items: center;
     margin: 50px 0 130px 0;
 }
-/* .brand {
-
-} */
+.brand {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.brand img {
+    width: 100px;
+}
 
 .reserved {
     background: #FFF4E7;
@@ -247,7 +269,11 @@
     padding: 40px 0;
     border-radius: 8px;
 }
-
+.reserved-title {
+    font-size: 20px;
+    line-height: 23px;
+    color: #424242;
+}
 
 .hide {
     display: none;
